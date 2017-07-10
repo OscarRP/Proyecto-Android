@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Easy Shopping</string>
+
+
+    <!-- REGISTRO ACTIVITY -->
+    <string name="registro">REGISTRO</string>
+    <string name="email">Introduce tu email</string>
+    <string name="password">Introduce tu contraseña</string>
+    <string name="repitepassword">Repite la contraseña</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="yaregistrado">Ya estoy registrado</string>
+    <string name="register_error">Debes rellenar todos los campos correctamente</string>
+
+    <!-- LOGIN ACTIVITY -->
+    <string name="noregistrado">No estoy registrado</string>
+    <string name="login">LOGIN</string>
+    <string name="entrar">Entrar</string>
+    <string name="error">Usuario y/o Contraseña incorrectos, vuelve a intentarlo</string>
+
+    <!-- HOME ACTIVITY -->
+    <string name="inicio">Inicio</string>
+    <string name="mis_listas">Mis Listas</string>
+    <string name="ofertas">Ofertas</string>
+    <string name="mapas">Mapas</string>
+    <string name="perfil">Perfil</string>
+    <string name="welcome">Bienvenido a</string>
+    <string name="easyshopping">Easy Shopping</string>
+    <string name="list_title">Gestiona tus listas de la compra y controla el gasto</string>
+    <string name="lists_options">- Crea, edita y guarda tus propias listas</string>
+    <string name="control">- Controla el gasto en el momento de hacer la compra</string>
+    <string name="start_here">Empieza aquí</string>
+    <string name="look_offers">Consulta las ofertas de los principales supermercados</string>
+    <string name="description_offers">- Te indicamos las ofertas actuales</string>
+    <string name="all_offers">Aquí las tienes todas</string>
+    <string name="look_maps">Te mostramos los supermercados cercanos a tí</string>
+    <string name="description_maps">- Pulsa sobre los marcadores para ver la información</string>
+    <string name="start_maps">Encuéntralos aquí</string>
+    <string name="profile">Gestiona tu perfil</string>
+    <string name="change_pass">- Cambia tu contraseña</string>
+    <string name="profile_image">- Ponte una imagen de perfil</string>
+    <string name="do_here">Házlo aquí</string>
+    <string name="exit_app">¿Realmente quieres salir de la aplicación?</string>
+
+    <!-- MY SHOPPING LISTS FRAGMENT -->
+    <string name="header">MIS LISTAS DE LA COMPRA</string>
+
+    <!-- MY SHOPPING LIST MANAGEMENT -->
+    <string name="add_shopping_list">Crear nueva lista</string>
+    <string name="delete_item">Eliminar producto</string>
+    <string name="add_item">Añadir productos</string>
+    <string name="delete_shopping_list">Eliminar lista</string>
+    <string name="clear_shopping_list">Vaciar lista</string>
+
+    <!-- ADD SHOPPING LIST -->
+    <string name="dialog_header">Empieza poniendo un nombre a tu lista de la compra</string>
+    <string name="dialog_ok_button">Aceptar</string>
+    <string name="dialog_cancel_button">Cancelar</string>
+    <string name="add_products">Añade todos los productos que quieras</string>
+    <string name="product_name">Producto</string>
+    <string name="product_quantity">Cantidad</string>
+    <string name="save">Guardar</string>
+    <string name="default_name">Lista sin nombre</string>
+    <string name="add_product_needed">Añade algún artículo antes de guardar la lista de la compra</string>
+
+    <!-- DETAIL SHOPPING LIST -->
+    <string name="dialog_title">Eliminar lista de la compra</string>
+    <string name="dialog_message">¿Deseas eliminar esta lista de la compra?</string>
+    <string name="add_product">Añadir</string>
+    <string name="need_product_name">"Por favor, introduce el nombre del producto"</string>
+    <string name="total_price">Importe Total:</string>
+    <string name="done">Hecho</string>
+    <string name="price">Precio</string>
+
+    <!-- PROFILE -->
+    <string name="close_session">Cerrar Sesión</string>
+    <string name="current_password">Introduce la contraseña actual</string>
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="password_changed">La contraseña se ha cambiado correctamente</string>
+    <string name="close_session_title_dialog">Cerrar Sesión</string>
+    <string name="close_session_message_dialog">¿Seguro que quieres cerrar la sesión?</string>
+    <string name="image_selection_title">Foto de perfil</string>
+
+    <!-- OFFERS -->
+    <string name="markets_list">Selecciona un supermercado</string>
+    <string name="without_offers">No hay ofertas actualmente en este supermercado</string>
+    <string name="offers">OFERTAS ACTUALES</string>
+    <string name="valid_to">Oferta válida hasta:</string>
+
+    <!-- MAPS -->
+    <string name="google_api_key">AIzaSyDWKwKH-3XONtTCemxIgZFGqPl-joevBvc</string>
+    <string name="google_places_key">AIzaSyBSlmkRLQ2dDSKgxHZQqvYDukBXMn1Rp0A</string>
+</resources>
+
+

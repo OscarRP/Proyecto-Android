@@ -1,0 +1,39 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@color/background"
+    tools:context="com.example.oscarruizpatricio.easyshopping.app.fragments.MyShoppingListsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/gradient_background">
+        <TextView
+            style="@style/header"
+            android:text="@string/header" />
+    </LinearLayout>
+
+        <ListView
+            android:id="@+id/shopping_lists_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="20dp">
+        </ListView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_shopping_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="20dp"
+        android:elevation="6dp"
+        android:src="@mipmap/ic_add_shopping_cart" />
+
+</FrameLayout>

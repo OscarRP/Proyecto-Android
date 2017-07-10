@@ -1,0 +1,131 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.example.oscarruizpatricio.easyshopping.app.fragments.ProfileFragment"
+    android:id="@+id/profile_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:orientation="vertical"
+        android:background="@drawable/gradient_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <TextView
+                android:id="@+id/close_session_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:clickable="true"
+                android:text="@string/close_session"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/profile"
+                android:id="@+id/user_image"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:src="@mipmap/add_button"
+                android:id="@+id/change_profile_image"
+                android:clickable="true"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_name_text_view"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/change_password_button"
+                android:layout_marginTop="15dp"
+                android:background="@color/background"
+                android:textColor="@color/colorAccent"
+                android:text="@string/change_password"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cancel_button"
+                android:text="Cancelar"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/background"
+                android:visibility="gone"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/current_password_edit_text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/current_password"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"/>
+        <EditText
+            android:id="@+id/password_edit_text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible"/>
+        <EditText
+            android:id="@+id/repeat_password_edit_text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/repitepassword"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible"/>
+    </LinearLayout>
+</LinearLayout>
